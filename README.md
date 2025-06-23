@@ -78,6 +78,29 @@ This project analyzes the relationship between market sentiment and trading perf
    - Run all cells to execute the full analysis pipeline.
    - Outputs will be saved in the `reports/` and `data/` directories.
 
+## How to Run the Jupyter Notebook
+
+1. **Activate your virtual environment (if using one):**
+   - On Windows:
+     ```sh
+     .\env\Scripts\activate
+     ```
+   - On macOS/Linux:
+     ```sh
+     source env/bin/activate
+     ```
+
+2. **Install dependencies:**
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+3. **Launch Jupyter Notebook:**
+   ```sh
+   jupyter notebook
+   ```
+   This will open the Jupyter interface in your browser. Navigate to `notebooks/analysis.ipynb` and run the cells to execute the analysis.
+
 ## Example Dependencies
 
 Add a `requirements.txt` with (at minimum):
